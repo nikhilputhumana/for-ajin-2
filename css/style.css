@@ -86,8 +86,22 @@ nav a:hover
 }
 .col{
 	flex: 1 1 300px;
-	padding: 30px 40px;
+	padding: 30px 20px;
 }
+
+.colt{
+	flex: 1 1 300px;
+	padding: 0px 20px;
+}
+
+.rowt{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 100%;
+	margin: auto; 	
+}
+
 .banner {
 	max-width: 1200px;
 }
@@ -247,8 +261,7 @@ nav a:hover
 	align-self: flex-start;
 }
 .conttitle{
-	text-align: left;
-	padding-left: 200px;
+	text-align: center;
 }
 .conttitle p{
 	margin-top: -15px;
